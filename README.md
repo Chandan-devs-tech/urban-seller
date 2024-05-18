@@ -2,7 +2,7 @@
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="./public/assets/logo.png" alt="logo" width="240"  height="auto" />
+  <img src="/frontend/public/assets/logo.png" alt="logo" width="240"  height="auto" />
   <br/>
 
   <h3><b>Urban Seller E-Commerce Platform</b></h3>
