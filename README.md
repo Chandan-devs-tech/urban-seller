@@ -23,8 +23,6 @@
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
-    - [Usage](#usage)
-    - [Run tests](#run-tests)
     - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
@@ -146,13 +144,13 @@ In order to run this project you need:
 Clone this repository to your desired folder:
   
   ```sh
-    git clone
+    git clone <repository_url>
   ```
 
 Navigate to the project folder:
   
   ```sh
-    cd my-project
+    cd urban-seller
   ```
 
 Install the project dependencies:
@@ -174,7 +172,7 @@ Create a `.env` file in the root directory and add the following environment var
 Run the project:
   
   ```sh
-    npm start
+    npm run dev
   ```
 
 ### Install
@@ -183,22 +181,6 @@ Install this project with:
 
 ```sh
   npm install
-```
-
-### Usage
-
-To run the project, execute the following command:
-
-```sh
-  npm start
-```
-
-### Run tests
-
-To run tests, run the following command:
-
-```sh
-  npm test
 ```
 
 ### Deployment
