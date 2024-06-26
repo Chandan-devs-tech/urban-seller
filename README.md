@@ -2,11 +2,10 @@
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="/frontend/public/assets/logo.png" alt="logo" width="240"  height="auto" />
+  <img src="./frontend/public/assets/urban_seller_app.png" alt="logo" />
   <br/>
 
-  <h3><b>Urban Seller E-Commerce Platform</b></h3>
-
+  <h1><b>Urban Seller E-Commerce Platform</b></h1>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -18,7 +17,6 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -52,7 +50,7 @@ It is a full-featured shopping cart with PayPal & credit/debit payments.
   - [Bootstrap](https://getbootstrap.com/)
   - [paypal](https://developer.paypal.com/docs/api/overview/)
   - [JWT](https://jwt.io/)
-  - [bcrypt](https://www.npmjs.com/package/bcrypt)  
+  - [bcrypt](https://www.npmjs.com/package/bcrypt)
   - [multer](https://www.npmjs.com/package/multer)
   - [dotenv](https://www.npmjs.com/package/dotenv)
   - [axios](https://www.npmjs.com/package/axios)
@@ -111,14 +109,6 @@ It is a full-featured shopping cart with PayPal & credit/debit payments.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link]()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -138,42 +128,42 @@ In order to run this project you need:
 - **[Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)**
 - **[paypal](https://developer.paypal.com/docs/api/overview/)**
 - **[JWT](https://jwt.io/)**
-  
+
 ### Setup
 
 Clone this repository to your desired folder:
-  
-  ```sh
-    git clone <repository_url>
-  ```
+
+```sh
+  git clone https://github.com/Chandan-devs-tech/urban-seller.git
+```
 
 Navigate to the project folder:
-  
-  ```sh
-    cd urban-seller
-  ```
+
+```sh
+  cd urban-seller
+```
 
 Install the project dependencies:
-  
-  ```sh
-    npm install
-  ```
+
+```sh
+  npm install
+```
 
 Create a `.env` file in the root directory and add the following environment variables:
-  
-  ```sh
-    NODE_ENV = development
-    PORT = 5000
-    MONGO_URI = your_mongodb_uri
-    JWT_SECRET = 'your_secret'
-    PAYPAL_CLIENT_ID = your_paypal_client_id
-  ```
+
+```sh
+  NODE_ENV = development
+  PORT = 5000
+  MONGO_URI = your_mongodb_uri
+  JWT_SECRET = 'your_secret'
+  PAYPAL_CLIENT_ID = your_paypal_client_id
+```
 
 Run the project:
-  
-  ```sh
-    npm run dev
-  ```
+
+```sh
+  npm run dev
+```
 
 ### Install
 
